@@ -1128,6 +1128,8 @@ pub(crate) mod test_support {
 
 #[cfg(test)]
 mod tests {
+    use std::io::{Cursor, Write};
+
     use super::test_support::{dgn_with_objects, zlib, MODEL_ID};
     use super::*;
 
